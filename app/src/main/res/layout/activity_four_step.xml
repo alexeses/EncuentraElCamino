@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourStepActivity">
+
+    <TextView
+        android:id="@+id/titulo01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo04"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/rounded_corner"
+        android:padding="@dimen/marginExt"
+        android:layout_marginTop="@dimen/marginExt"
+        android:layout_marginBottom="@dimen/marginExt"
+        android:layout_marginStart="@dimen/marginExt"
+        android:layout_marginEnd="@dimen/marginExt"
+        android:textSize="@dimen/textSizeExt"
+        />
+
+</RelativeLayout>

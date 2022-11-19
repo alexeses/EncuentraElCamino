@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginExt">16dp</dimen>
+    <dimen name="textSizeMedium">16dp</dimen>
+    <dimen name="textSizeExt">20sp</dimen>
+    <dimen name="btnMargin">15dp</dimen>
+</resources>
