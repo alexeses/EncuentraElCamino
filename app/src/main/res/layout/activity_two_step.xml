@@ -9,38 +9,33 @@
     tools:context=".TwoStepActivity">
 
     <TextView
-        android:id="@+id/titulo01"
+        android:id="@+id/titulo02"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo02"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/rounded_corner"
         android:padding="@dimen/marginExt"
         android:layout_marginTop="@dimen/marginExt"
         android:layout_marginBottom="@dimen/marginExt"
         android:layout_marginStart="@dimen/marginExt"
         android:layout_marginEnd="@dimen/marginExt"
-        android:textSize="@dimen/textSizeExt"
-        />
+        android:textSize="@dimen/textSizeExt" />
 
     <Button
+        android:id="@+id/pasoCorto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/atajoCorto"
-        android:id="@+id/pasoCorto"
         android:background="@drawable/btnrounded_corner"
         android:layout_alignParentBottom="true"
         android:layout_gravity="center_vertical" />
 
     <Button
+        android:id="@+id/pasoLargo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/btnMargin"
         android:text="@string/atajoLargo"
-        android:id="@+id/pasoLargo"
         android:background="@drawable/btnrounded_corner"
         android:layout_above="@+id/pasoCorto"
         android:layout_gravity="center_vertical" />

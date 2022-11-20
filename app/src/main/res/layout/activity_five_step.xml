@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:padding="@dimen/marginExt"
     android:layout_height="match_parent"
-    tools:context=".ThreeStepActivity">
+    tools:context=".FiveStepActivity">
 
     <TextView
-        android:id="@+id/titulo03"
+        android:id="@+id/titulo01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/titulo03"
+        android:text="@string/titulo05"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,15 +25,22 @@
         android:textSize="@dimen/textSizeExt" />
 
     <Button
-        android:id="@+id/btnCall"
+        android:id="@+id/btnVolverKey"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/call"
+        android:text="@string/btnCogerLlave"
         android:background="@drawable/btnrounded_corner"
-        android:layout_marginTop="@dimen/marginExt"
-        android:layout_marginBottom="@dimen/marginExt"
-        android:layout_marginStart="@dimen/marginExt"
-        android:layout_marginEnd="@dimen/marginExt"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/btnVolverSinKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btnMargin"
+        android:text="@string/btnPerderse"
+        android:background="@drawable/btnrounded_corner"
+        android:layout_above="@+id/btnVolverKey"
+        android:layout_gravity="center_vertical" />
 
 </RelativeLayout>

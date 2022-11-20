@@ -22,7 +22,7 @@ public class TwoStepActivity extends AppCompatActivity {
         setContentView(R.layout.activity_two_step);
 
         pasoCorto = findViewById(R.id.pasoCorto);
-        tvNombre = findViewById(R.id.titulo01);
+        tvNombre = findViewById(R.id.titulo02);
         pasoLargo = findViewById(R.id.pasoLargo);
 
         String nombre = getIntent().getStringExtra(KEY_PERSONA);

@@ -1,12 +1,21 @@
 <resources>
     <string name="app_name" translatable="false">EBDIP_AlexGheorghe</string>
-    <string name="titulo01" translatable="false">Hola jugador! La partida está apunto de comenzar, estate muy atento a todas las indicaciones para no perderte en ningún momento…</string>
-    <string name="username" translatable="false">Introduce tu nickname</string>
-    <string name="empezarJuego" translatable="false">A jugar!</string>
-    <string name="avisoJuego" translatable="false">Lo usaremos para mejorar tu jugabilidad!</string>
-    <string name="titulo03" translatable="false">Ups! Para que tienes problemas, prueba realizando una llamada!</string>
-    <string name="titulo04" translatable="false">Camino correcto!</string>
-    <string name="titulo02">Genial %1$s! Ya noa hay vuelta atrás, solo necesitas un poco de sentido común para pasar este nivel. Ánimo!</string>
-    <string name="atajoCorto">Camino fácil</string>
-    <string name="atajoLargo">Camino complicado</string>
+    <string name="titulo01" translatable="false">Hello player! The game is about to start, be very attentive to all the indications so you don\'t get lost at any moment...</string>
+    <string name="username" translatable="false">Enter your nickname</string>
+    <string name="empezarJuego" translatable="false">Let\'s play!</string>
+    <string name="avisoJuego" translatable="false">We will use it to improve your performance!</string>
+    <string name="titulo03" translatable="false">Oops, you\'re having trouble, try making a call!</string>
+    <string name="titulo04" translatable="false">Great %1$s! You\'ve chosen the right path, you\'re very close. Open the door to check it out.</string>
+    <string name="titulo02">Great %1$s! There\'s no turning back now, you just need a little common sense to pass this level. Cheer up!</string>
+    <string name="atajoCorto">Easy way</string>
+    <string name="atajoLargo">Complicated way</string>
+    <string name="call">Help? Make a call</string>
+    <string name="abrirPuerta">Open the door</string>
+    <string name="cogerLlave">Take key</string>
+    <string name="titulo05">Think and then choose...</string>
+    <string name="btnCogerLlave">Take the key</string>
+    <string name="btnPerderse">I want to get lost...</string>
+    <string name="titulo06">You have done very well!</string>
+    <string name="btnResetGame">Restart the game</string>
+    <string name="btnMoreInfo">More information</string>
 </resources>

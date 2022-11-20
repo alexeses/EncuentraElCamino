@@ -1,13 +1,21 @@
 <resources>
     <string name="app_name" translatable="false">EBDIP_AlexGheorghe</string>
-    <string name="titulo01" translatable="false">Hola jugador! La partida está apunto de comenzar, estate muy atento a todas las indicaciones para no perderte en ningún momento…</string>
-    <string name="username" translatable="false">Introduce tu nickname</string>
-    <string name="empezarJuego" translatable="false">A jugar!</string>
-    <string name="avisoJuego" translatable="false">Lo usaremos para mejorar tu jugabilidad!</string>
-    <string name="titulo03" translatable="false">Ups! Para que tienes problemas, prueba realizando una llamada!</string>
-    <string name="titulo04" translatable="false">Camino correcto!</string>
-    <string name="titulo02">Genial %1$s! Ya noa hay vuelta atrás, solo necesitas un poco de sentido común para pasar este nivel. Ánimo!</string>
+    <string name="titulo01">Hola jugador! La partida está apunto de comenzar, estate muy atento a todas las indicaciones para no perderte en ningún momento…</string>
+    <string name="username">Introduce tu nickname</string>
+    <string name="empezarJuego">A jugar!</string>
+    <string name="avisoJuego">Lo usaremos para mejorar tu jugabilidad!</string>
+    <string name="titulo03">Ups! Para que tienes problemas, prueba realizando una llamada!</string>
+    <string name="titulo04">Genial %1$s! Has elegido el camino correcto, estás muy cerca. Abre la puerta para comprobarlo.</string>
+    <string name="titulo02">Genial %1$s! Ya no hay vuelta atrás, solo necesitas un poco de sentido común para pasar este nivel. Ánimo!</string>
     <string name="atajoCorto">Camino fácil</string>
     <string name="atajoLargo">Camino complicado</string>
     <string name="call">Ayuda? Realiza una llamada</string>
+    <string name="abrirPuerta">Abrir la puerta</string>
+    <string name="cogerLlave">Coger llave</string>
+    <string name="titulo05">Piensa y luego elige...</string>
+    <string name="btnCogerLlave">Coger la llave</string>
+    <string name="btnPerderse">Quiero perderme...</string>
+    <string name="titulo06">Lo has hecho muy bien!</string>
+    <string name="btnResetGame">Reiniciar el juego</string>
+    <string name="btnMoreInfo">Obtener más información</string>
 </resources>

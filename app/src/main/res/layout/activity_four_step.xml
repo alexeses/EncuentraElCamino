@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/marginExt"
     tools:context=".FourStepActivity">
 
     <TextView
-        android:id="@+id/titulo01"
+        android:id="@+id/titulo04"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo04"
@@ -21,7 +22,25 @@
         android:layout_marginBottom="@dimen/marginExt"
         android:layout_marginStart="@dimen/marginExt"
         android:layout_marginEnd="@dimen/marginExt"
-        android:textSize="@dimen/textSizeExt"
-        />
+        android:textSize="@dimen/textSizeExt" />
+
+    <Button
+        android:id="@+id/btnCogerKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cogerLlave"
+        android:background="@drawable/btnrounded_corner"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/btnOpenDoor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/btnMargin"
+        android:text="@string/abrirPuerta"
+        android:background="@drawable/btnrounded_corner"
+        android:layout_above="@+id/btnCogerKey"
+        android:layout_gravity="center_vertical" />
 
 </RelativeLayout>

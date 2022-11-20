@@ -13,33 +13,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo01"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/rounded_corner"
         android:padding="@dimen/marginExt"
         android:layout_marginTop="@dimen/marginExt"
         android:layout_marginBottom="@dimen/marginExt"
         android:layout_marginStart="@dimen/marginExt"
         android:layout_marginEnd="@dimen/marginExt"
-        android:textSize="@dimen/textSizeExt"
-        />
+        android:textSize="@dimen/textSizeExt" />
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/titulo01"
-        android:layout_marginTop="@dimen/marginExt"
-        android:ems="10"
         android:hint="@string/username"
+        android:layout_marginTop="@dimen/marginExt"
+        android:layout_marginBottom="@dimen/marginExt"
         android:layout_marginStart="@dimen/marginExt"
-        android:layout_marginEnd="@dimen/marginExt"
-
-        android:id="@+id/username"/>
+        android:layout_marginEnd="@dimen/marginExt" />
 
     <TextView
+        android:id="@+id/avisoJuego"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
@@ -48,10 +43,10 @@
         android:layout_marginTop="@dimen/marginExt"
         android:layout_marginBottom="@dimen/marginExt"
         android:layout_marginStart="@dimen/marginExt"
-        android:layout_marginEnd="@dimen/marginExt"
-        android:id="@+id/avisoJuego" />
+        android:layout_marginEnd="@dimen/marginExt" />
 
     <Button
+        android:id="@+id/btnSiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/marginExt"
@@ -60,10 +55,8 @@
         android:layout_marginEnd="@dimen/marginExt"
         android:layout_alignParentBottom="true"
         android:text="@string/empezarJuego"
-        android:id="@+id/btnSiguiente"
         android:layout_centerHorizontal="true"
         android:background="@drawable/btnrounded_corner"
-        android:padding="@dimen/marginExt"
-        />
+        android:padding="@dimen/marginExt" />
 
 </RelativeLayout>
